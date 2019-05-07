@@ -62,3 +62,9 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENS
 * Guitou pour coder sur Atom
 * Corto pour Martin
 * etc
+
+##Personnes qui adrorent l'eau
+
+* Guitou le gitter
+* merci aux tippers d'avoir tippé
+* chat >> chien
