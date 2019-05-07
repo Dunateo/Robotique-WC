@@ -28,6 +28,7 @@ import un projet
 PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES , SINON NEW PROJECT FROM EXISTING SOURCES, REFUSE OVERWRITE .iml
 ```
 Selectionne "Window", "Preferences", "Add", "Standard VM" et "Directory" :
+
 Aller dans C:\Programmes\Java\ et selectionne "jre1.8.0_211", "Finish" puis "Apply and Close"
 
 ```
