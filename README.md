@@ -46,12 +46,12 @@ Tu live action comme tu veux, tu post-prod et surtout tu dépasses pas les 3000 
 
 * Github Desktop
 
-Comme tu veux zon
 
 ## Authors
 
 * **Yanis Attia** - *Initial work* - https://github.com/yadev83
 * **Matthieu Prezut** - *Eclipse Tutorial* - https://github.com/jesa974
+* **Valentin Bru** - *IntelliJIdea Tutorial* - https://github.com/Dunateo
 
 ## License
 
@@ -61,7 +61,8 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENS
 
 * Guitou pour coder sur Atom
 * Corto pour Martin
-* etc
+* Le Readme plus actif que le code
+* Atom c'est nu
 
 ## Personnes qui adrorent l'eau
 
