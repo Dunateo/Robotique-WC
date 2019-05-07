@@ -64,7 +64,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENS
 * Le Readme plus actif que le code
 * Atom c'est nu
 
-## Personnes qui adrorent l'eau
+## Personnes qui adorent l'eau
 
 * Guitou le gitter
 * merci aux tippers d'avoir tippé

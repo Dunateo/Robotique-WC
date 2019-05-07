@@ -15,22 +15,39 @@ public class Regulator implements Manager, Calculator{
         working = false;
     }
 
+    /**
+     * renvoie si le régulateur est en fonctionnement
+     * @return
+     */
     public boolean isWorking(){
         return working;
     }
 
+    /**
+     * démarrage
+     * @param speed
+     * @return
+     */
     public int start(float speed){
         working = true;
         targetSpeed = speed;
         return 0;
     }
 
+    /**
+     * arret
+     * @return
+     */
     public int stop(){
         working = false;
-
         return 0;
     }
 
+    /**
+     * calcule la vitesse maximale 
+     * @param position
+     * @return
+     */
     public float calcTargetSpeed(Position position){
         float speed = 0.0f;
 
