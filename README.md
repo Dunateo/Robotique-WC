@@ -51,7 +51,7 @@ Comme tu veux zon
 ## Authors
 
 * **Yanis Attia** - *Initial work* - https://github.com/yadev83
-* **Matthieu Prezut** - *Ecclipse Tutorial* - https://github.com/jesa974
+* **Matthieu Prezut** - *Eclipse Tutorial* - https://github.com/jesa974
 
 ## License
 
@@ -62,3 +62,9 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENS
 * Guitou pour coder sur Atom
 * Corto pour Martin
 * etc
+
+## Personnes qui adrorent l'eau
+
+* Guitou le gitter
+* merci aux tippers d'avoir tippé
+* chat >> chien
