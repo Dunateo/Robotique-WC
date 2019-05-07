@@ -26,16 +26,18 @@ public class Regulator implements Manager, Calculator{
     }
 
     public int stop(){
-        working = true;
+        working = false;
 
         return 0;
     }
 
     public float calcTargetSpeed(Position position){
-        float speed;
+        float speed = 0.0f;
 
-        Cartograph carto = new Cartographie();
-        speed = carto.getSpeedLimit(position);
+        if(isWorking()){
+            Cartograph carto = new Cartographie();
+            speed = carto.getSpeedLimit(position);
+        }
 
         return speed;
     }
