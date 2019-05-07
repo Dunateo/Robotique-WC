@@ -9,7 +9,7 @@ public class TestRegulateur {
         Position position = new GPSPosition();
         Regulator regulateur = new Regulator();
 
-        regulateur.start(120);
+        regulateur.start(50);
         regulateur.calcTargetSpeed(position);
     }
 }

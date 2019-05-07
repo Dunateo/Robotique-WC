@@ -57,8 +57,11 @@ public class Regulator implements Manager, Calculator{
             System.out.println("Speed limit is " + speed + " Km/h");
             if(targetSpeed > speed){
                 System.out.println("ATTENTION ! Vous avez demandé une vitesse trop élevé (" + targetSpeed + " Km/h)");
+                System.out.println("La vitesse est reglée à " + speed + " Km/h");
+            }else{
+                speed = targetSpeed;
+                System.out.println("La vitesse est reglée à " + targetSpeed + " Km/h");
             }
-            System.out.println("La vitesse est reglée à " + speed + " Km/h");
         }
 
         return speed;
