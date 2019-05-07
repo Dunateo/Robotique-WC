@@ -5,7 +5,7 @@ import gps.implementations.*;
 
 import java.util.Scanner;
 
-public class test_GPS {
+public class TestGPS {
     public static void main(String[] args){
         Coordinate test = new Latitude();
 

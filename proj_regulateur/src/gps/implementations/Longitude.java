@@ -71,11 +71,11 @@ public class Longitude implements Coordinate {
     public void setValue(final float val) {
         float myval = val;
         if (myval < 0) {
-            while (myval < -(Math.PI)) {
+            while (myval < -(Math.PI / 2)) {
                 myval += Math.PI;
             }
         } else if (myval > 0) {
-            while (myval > (Math.PI)) {
+            while (myval > (Math.PI / 2)) {
                 myval -= Math.PI;
             }
         }
@@ -91,9 +91,9 @@ public class Longitude implements Coordinate {
     public String toString() {
         char orient;
         if (getDeg() >= 0) {
-            orient = 'W';
+            orient = 'N';
         } else {
-            orient = 'E';
+            orient = 'S';
         }
 
         return "Latitude{" + (int) Math.abs(getDeg()) + "°"
