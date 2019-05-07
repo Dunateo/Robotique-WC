@@ -22,21 +22,18 @@ ET VOILA
 
 ### Eclipse
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+clone le repos , 
+import un projet
+```
+PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES , SINON NEW PROJECT FROM EXISTING SOURCES, REFUSE OVERWRITE .iml
+```
+Selectionne "Window", "Preferences", "Add", "Standard VM" et "Directory" :
+Aller dans C:\Programmes\Java\ et selectionne "jre1.8.0_211", "Finish" puis "Apply and Close"
 
 ```
-Give the example
+clone https://github.com/Dunateo/Robotique-WC.git
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+ET VOILA
 
 ## Deployment
 
