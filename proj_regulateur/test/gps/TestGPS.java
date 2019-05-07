@@ -10,7 +10,7 @@ public class TestGPS {
         Coordinate test = new Latitude();
 
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Entrez la valeur en radians");
+        System.out.println("Entrez la valeur en radians et pas en degré!");
         int rad = keyboard.nextInt();
 
         test.setValue(rad);
