@@ -8,7 +8,7 @@ Le repos officiel de l'ingé logiciel
 clone le repos , 
 import un projet
 ```
-PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES
+PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES , SINON NEW PROJECT FROM EXISTING SOURCES, REFUSE OVERWRITE .iml
 ```
 
 selectionne le dossier proj_regulateur
