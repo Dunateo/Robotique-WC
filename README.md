@@ -1,5 +1,5 @@
 # Robotique-WC
-Le repos officiel de l'ingé logiciel 
+Le repo officiel de l'ingé logiciel de CIR2
 
 ## Getting Started
 
@@ -44,9 +44,9 @@ Tu live action comme tu veux, tu post-prod et surtout tu dépasses pas les 3000 
 
 ## Versioning
 
-*GitKraken
+* GitKraken
 
-*Github Desktop
+* Github Desktop
 
 Comme tu veux zon
 
