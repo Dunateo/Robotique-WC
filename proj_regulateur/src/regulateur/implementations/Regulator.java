@@ -26,8 +26,7 @@ public class Regulator implements Manager, Calculator{
     }
 
     public int stop(){
-        working = true;
-
+        working = false;
         return 0;
     }
 
