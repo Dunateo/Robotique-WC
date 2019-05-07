@@ -11,7 +11,7 @@ public class Regulator implements Manager, Calculator{
     private boolean working;
     private float targetSpeed;
 
-    Regulator(){
+    public Regulator(){
         working = false;
     }
 
@@ -37,6 +37,11 @@ public class Regulator implements Manager, Calculator{
         if(isWorking()){
             Cartograph carto = new Cartographie();
             speed = carto.getSpeedLimit(position);
+            System.out.println("Speed limit is " + speed + " Km/h");
+            if(targetSpeed > speed){
+                System.out.println("ATTENTION ! Vous avez demandé une vitesse trop élevé (" + targetSpeed + " Km/h)");
+            }
+            System.out.println("La vitesse est reglée à " + speed + " Km/h");
         }
 
         return speed;
