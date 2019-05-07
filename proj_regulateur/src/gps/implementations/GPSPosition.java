@@ -4,7 +4,7 @@ import gps.interfaces.Coordinate;
 import gps.interfaces.Position;
 
 /**
- * @return last
+ * @return latitude
  */
 public class GPSPosition implements Position {
     public Coordinate getLatitude(float angle){
@@ -16,7 +16,7 @@ public class GPSPosition implements Position {
     /**
      *
      * @param angle
-     * @return
+     * @return longitude
      */
     public Coordinate getLongitude(float angle){
         Coordinate lon = new Longitude();
