@@ -1,5 +1,5 @@
 # Robotique-WC
-Le repos officiel de l'ingé logiciel 
+Le repo officiel de l'ingé logiciel de CIR2
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Le repos officiel de l'ingé logiciel
 clone le repos , 
 import un projet
 ```
-PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES
+PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES , SINON NEW PROJECT FROM EXISTING SOURCES, REFUSE OVERWRITE .iml
 ```
 
 selectionne le dossier proj_regulateur
@@ -44,9 +44,9 @@ Tu live action comme tu veux, tu post-prod et surtout tu dépasses pas les 3000 
 
 ## Versioning
 
-*GitKraken
+* GitKraken
 
-*Github Desktop
+* Github Desktop
 
 Comme tu veux zon
 
