@@ -1,7 +1,7 @@
 package regulateur.interfaces;
 
-public interface Calculator {
-    float calcTargetSpeed(float speed, float limit);
+import gps.interfaces.Position;
 
-    float calcAccel(float targetSpeed, float actualSpeed);
+public interface Calculator {
+    float calcTargetSpeed(Position position);
 }

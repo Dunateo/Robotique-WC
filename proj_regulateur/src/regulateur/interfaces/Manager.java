@@ -6,24 +6,6 @@ package regulateur.interfaces;
  */
 public interface Manager {
     /**
-     * @func    : getSpeed()
-     * @params  : void
-     * @desc    : Function that returns the actual speed of the system
-     *
-     * @return  : float (speed)
-     */
-    float getSpeed();
-
-    /**
-     * @func    : getAccel()
-     * @params  : void
-     * @desc    : Function that returns the actual acceleration
-     *
-     * @return  : float (acceleration)
-     */
-    float getAccel();
-
-    /**
      * @func    : isWorking()
      * @params  : void
      * @desc    : Function that tells if the speed regulator is active or not
@@ -42,7 +24,7 @@ public interface Manager {
      *
      * @return  : int (error code)
      */
-    int start(float accel);
+    int start(float speed);
 
     /**
      * @func    : stop()
