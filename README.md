@@ -3,19 +3,23 @@ Le repo officiel de l'ingé logiciel de CIR2
 
 ## Getting Started
 
-### IntelliJIdea (update)
+### IntelliJIdea 
 
-* VCS menu
-* Checkout from version control
-* git
-* copier "https://github.com/Dunateo/Robotique-WC.git"
-* S'identifier
+clone le repos , 
+import un projet
+```
+PAS OPEN, IMPORT PROJECT WITH EXISTING SOURCES , SINON NEW PROJECT FROM EXISTING SOURCES, REFUSE OVERWRITE .iml
+```
 
-* clic droit/git/repository -> push/pull
-                /commit file
-                
-* Interface git en haut à droite pour pull et commit
-* pull environ toute les 20mins et profitez de votre tweatline
+selectionne le dossier proj_regulateur
+selectionne le sdk
+suite suite
+
+```
+clone https://github.com/Dunateo/Robotique-WC.git
+```
+ET VOILA
+
 
 ### Eclipse
 
@@ -43,12 +47,27 @@ Tu live action comme tu veux, tu post-prod et surtout tu dépasses pas les 3000 
 
 * Github Desktop
 
+## Usage Guide
+
+* VCS menu
+* Checkout from version control
+* git
+* copier "https://github.com/Dunateo/Robotique-WC.git"
+* S'identifier
+
+* clic droit/git/repository -> push/pull
+                /commit file
+                
+* Interface git en haut à droite pour pull et commit
+* pull environ toute les 20mins et profitez de votre tweatline
+
 
 ## Authors
 
 * **Yanis Attia** - *Initial work* - https://github.com/yadev83
 * **Matthieu Prezut** - *Eclipse Tutorial* - https://github.com/jesa974
 * **Valentin Bru** - *IntelliJIdea Tutorial* - https://github.com/Dunateo
+* **Martin Cortopassi** - *Usage Guide* - https://github.com/MartinCorto
 
 ## License
 
