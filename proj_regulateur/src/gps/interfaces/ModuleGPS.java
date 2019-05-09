@@ -1,5 +1,10 @@
 package gps.interfaces;
 
-public interface ModuleGPS {
+import gps.exception.BadDataException;
+import gps.exception.SatOutOfConException;
 
+public interface ModuleGPS {
+    Position getPosition() throws SatOutOfConException, BadDataException;
+
+    public void setPosition(Position position);
 }

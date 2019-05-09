@@ -11,7 +11,7 @@ public class GPSProvider implements ModuleGPS {
      * getteur de position
      * @return
      */
-    Position getPosition(){
+    public Position getPosition(){
         System.out.println("Hop la c'est la position");
         return position;
     }
