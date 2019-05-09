@@ -1,6 +1,10 @@
 package gps;
 
+import gps.exception.BadDataException;
+import gps.exception.SatOutOfConException;
 import gps.implementations.GPSPosition;
+import gps.implementations.GPSProvider;
+import gps.interfaces.ModuleGPS;
 import gps.interfaces.Position;
 import regulateur.implementations.Regulator;
 
@@ -8,8 +12,17 @@ import java.util.Scanner;
 
 public class TestRegulateur {
     public static void main(String[] args){
-        Position position = new GPSPosition();
+        ModuleGPS GPS = new GPSProvider();
         Regulator regulateur = new Regulator();
+        Position position = null;
+        try{
+            position = GPS.getPosition();
+        }catch(SatOutOfConException conEx){
+
+        }catch(BadDataException datEx){
+
+        }
+
 
         System.out.println("Vitesse désirée ? ");
         Scanner keyboard = new Scanner(System.in);
