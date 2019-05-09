@@ -2,7 +2,6 @@ package gps;
 
 import gps.exception.BadDataException;
 import gps.exception.SatOutOfConException;
-import gps.implementations.GPSPosition;
 import gps.implementations.GPSProvider;
 import gps.interfaces.ModuleGPS;
 import gps.interfaces.Position;
@@ -15,6 +14,7 @@ public class TestRegulateur {
         ModuleGPS GPS = new GPSProvider();
         Regulator regulateur = new Regulator();
         Position position = null;
+
         try{
             position = GPS.getPosition();
         }catch(SatOutOfConException conEx){
@@ -22,7 +22,6 @@ public class TestRegulateur {
         }catch(BadDataException datEx){
 
         }
-
 
         System.out.println("Vitesse désirée ? ");
         Scanner keyboard = new Scanner(System.in);
